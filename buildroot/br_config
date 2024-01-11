@@ -1,0 +1,5 @@
+#!/bin/sh
+make -C /home/alex/Xilinx/buildroot \
+    O=$PWD \
+    ARCH=arm \
+    nconfig

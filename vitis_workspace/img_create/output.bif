@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/alex/Xilinx_prj/ebaz_linux/vitis_workspace/ebaz_linux_platform/export/ebaz_linux_platform/sw/ebaz_linux_platform/boot/fsbl.elf
+	/home/alex/Xilinx_prj/ebaz_linux/vitis_workspace/ebaz_linux_platform/hw/design_top_wrapper.bit
+	/home/alex/Xilinx/u-boot-xlnx/u-boot.elf
+}

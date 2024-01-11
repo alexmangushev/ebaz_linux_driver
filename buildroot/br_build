@@ -1,0 +1,9 @@
+#!/bin/sh
+#sudo make -C /home/alex/Xilinx/buildroot \
+#    clean linux \
+#    O=$PWD 
+sudo make -C /home/alex/Xilinx/buildroot \
+    O=$PWD \
+    ARCH=arm \
+    BR2_JLEVEL="$(($(nproc) - 1))"
+
