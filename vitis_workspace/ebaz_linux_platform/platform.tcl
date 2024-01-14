@@ -36,3 +36,6 @@ platform generate -domains
 platform active {ebaz_linux_platform}
 platform active {ebaz_linux_platform}
 platform generate
+platform active {ebaz_linux_platform}
+platform config -updatehw {/home/alex/Xilinx_prj/ebaz_linux/design_top_wrapper.xsa}
+platform generate
